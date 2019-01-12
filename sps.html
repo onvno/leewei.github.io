@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Leewei's Another Day</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Home</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="sps.html">SPS</a></li>
+									<li><a href="https://itunes.apple.com/cn/app/remoteslides/id1440290859?mt=12" target="_blank">RemoteSlides</a></li>
+									<li><a href="https://github.com/onvno/easy-pack" target="_blank">EasyPack</a></li>
+									<li><a href="https://github.com/onvno/code-rhythm" target="_blank">code-rhythm</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>SPS - Search to Play the Song</h2>
+								<p>一个听歌 / 电台的Chrome音乐扩展</p>
+									<!-- <div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/sps-banner.jpg" alt="" /></span></div>
+										</div>
+									</div> -->
+								<ul class="actions small">
+										<li><a href="https://chrome.google.com/webstore/detail/search-to-play-the-song/anfmgjkkbagjfdejhbjdiapgkbhpigpm?hl=zh-CN" target="_blank" class="button primary small">Chrome商店地址</a></li>
+										<li><a href="https://chrome-extension-downloader.com/" target="_blank" class="button small">离线下载地址</a></li>
+								</ul>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">简介</h3>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/sps-banner.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<p>18年春节假期闲来想写个 Chrome 扩展，于是有了 SPS 这个听歌听广播的音乐扩展。回顾了下版本历史，业余时间一点点积累，大大小小也有了几十个版本的迭代。SPS 是两个名称的缩写：Search to Play the Song 和 Search to Play the Sound.顾名思义，可以听搜歌和听电台。2.4.3版本时，因为开发了一个自认为不错且独特的功能，斗胆在论坛发了篇帖子，然后没想到很快被大众软件，少数派，异次元软件推荐，越多的人加群，很多比较初级的问题都需要逐一应付，遂有了这么一个页面，介绍下SPS。</p>
+
+									<p>SPS的几个特色会在下边单独说，先说下版权问题，因为仅仅是为了方便搜歌，所以从版权方面，做几个承诺：不利用SPS做任何付费或盈利，不接受任何形式捐助，不提供歌曲下载，不拉取大厂特色歌单，评论等资源。</p>
+
+									<h3 class="major">特色功能</h3>
+
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/sps-back.png" alt="" /></a>
+											<h3 class="major">后台播放</h3>
+											<p>无需新开Tab页面，省去不小心关闭Tab页的困扰</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sps-snippet.png" alt="" /></a>
+											<h3 class="major">片段播放</h3>
+											<p>源于有些歌曲只关注副歌部分，开发了片段播放的功能</p>
+										</article>
+										<article>
+												<a href="#" class="image"><img src="images/sps-search.png" alt="" /></a>
+												<h3 class="major">搜索及榜单</h3>
+												<p>提供快速搜索入口，支持一些主流榜单更新</p>
+											</article>
+											<article>
+												<a href="#" class="image"><img src="images/sps-radio.png" alt="" /></a>
+												<h3 class="major">电台播放</h3>
+												<p>扩展了一些中文地区的广播，同时也可以通过收藏增加自定义电台</p>
+											</article>
+									</section>
+									<p>
+											<b>关于极简</b><br />
+
+											当时写 SPS 的时候，对自己说要极简，所以一切不需要的都不要展现，至今都没有单独给停止和暂停一个独立的按钮，只有一个意象化的播放按钮在哪里。点击可以播放，可以暂停。<br />
+											
+											甚至是没有音量，没有进度条的，这一点是过于极端化的，在用户的要求下，还是在不起眼的地方加了这两个功能。<br>
+											
+											说到极简，一个原因是不想改变现有界面的尺寸，调试过几次，改宽了或者改高了，总有种不是 SPS 的感觉。所以每次提到需要新功能的时候，考虑的都不是怎么实现，而是在哪里放。哈哈，无处安放的纠结。<br /><br />
+											
+											<b>关于播放优化</b><br />
+											
+											因为 SPS 是支持后台播放的，默认关闭音乐就需要打开后再点击按钮关闭。优化，必须优化掉，所以增加了应用的快捷键 Shift + Alt + Z，无需打开界面就可以播放 /暂停了<br /><br />
+											
+											<b>关于搜索只展示 5 条</b><br />
+											
+											因为 SPS 最早定位是搜歌听歌，所以按照正常思考，默认搜索 5 条如果没有原唱基本可以证明厂家没有版权，可以切换其他厂家了，所以默认搜索只展示 5 条结果。但是越来越多人使用时提到：我搜林俊杰怎么只有 5 首，你可以侮辱我，但不允许侮辱我偶像。当然上边对话我是瞎猜的，怎么只能 5 首，如何在不改边原有的逻辑上，满足更多的搜索结果需求。有了，感谢微博。实现如下：默认搜索林俊杰只会展示 5 首，但是不满意咋办，试试搜索林俊杰##30,也许能满足你的需求。<br /><br />
+											
+											<b>关于经典歌词展示</b><br />
+											
+											如果打开 SPS，也许你会注意到右下方的一些歌词，这是早期自己中意的功能，歌不光可以听，还可以读读。中间数据库没做好安全，被黑客删除过一次，而后花了一周含泪补全了。后边因为工作的原因，一直没有很好的扩展补充。
+
+									</p>
+
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+				<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>非科班出身的程序员，互联网行业做过运营，设计，前端，工作业余写一些项目，玩玩Node、Python、Swift，几近互联网全栈。好奇美好事物，本着向一切不美好说不的心态，悠然自得写着自己喜欢的东西。希望未来能对过去的自己说："嘿，看不出来这老家伙还有两把刷子，看好你哟！"</p>
+							<ul class="contact">
+								<!-- <li class="fa-home">
+									Untitled Inc<br />
+									1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000
+								</li> -->
+								<!-- <li class="fa-phone">(000) 000-0000</li> -->
+								<li class="fa-envelope"><a href="#">leewei2020@gmail.com</a></li>
+								<!-- <li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
+								<!-- <li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li> -->
+								<!-- <li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Leewei All rights reserved.</li><li>Design: HTML5 UP</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
